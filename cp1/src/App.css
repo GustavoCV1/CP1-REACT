@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  flex: content;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.post__content p a{
+	font-weight:500;
+	text-decoration:underline;
+	color:#2A76BD;
+}
+h2[style*="font-size: 36px"] {
+    font-size: 23px !important;
+    color: #262626 !important;
+    font-weight: 700 !important;
+    line-height: 28px !important;
+    margin: 40px 0 24px !important;
+}
+
+
+
