@@ -1,15 +1,19 @@
+.container--sm {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1160px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding:  0;
   overflow: hidden;
-  background-color: #333;
-  flex: content;
+  background-color: rgb(0, 0, 0);
 }
 
-li {
-  float: left;
-}
+
 
 li a {
   display: block;
@@ -19,22 +23,107 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+
+.header_group {
+  display: flex;
+  min-height: 48px;
+  position: fixed;
+  top: 0;
 }
 
-.post__content p a{
-	font-weight:500;
-	text-decoration:underline;
-	color:#2A76BD;
-}
-h2[style*="font-size: 36px"] {
-    font-size: 23px !important;
-    color: #262626 !important;
-    font-weight: 700 !important;
-    line-height: 28px !important;
-    margin: 40px 0 24px !important;
+.header_main {
+  position: relative;
+  height: 48px;
+  display: flex;
+  margin-top: 12px;
+  width: 100%;
+  padding-top: 15px;
 }
 
+.content_menu {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+#menu-menu-header {
+    align-items: center;
+    display: flex;
+  }
 
 
+.row {
+  display: flex;
+  margin:0 -8px;
+  margin-top:75px
+
+}
+
+.post_header {
+  width:876px;
+  position: absolute;
+  padding:0 4px 16px 0;
+  width:100%;
+  margin-top:24px;
+  margin-left: 20px;
+}
+
+.post_title {
+  color: #262626;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.post_excerpt {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.author_image {
+  display:flex;
+  align-items:center;
+  height:32px;
+  margin-bottom:16px;
+  margin-top:16px
+}
+
+.img{
+	width: 120px;
+  height: 75px;
+	margin-top: 55px;
+  margin-left: -36px;
+}
+
+.post_data {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4D4D4D;
+  font-style: normal;
+}
+
+.higher_share{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-top:1px solid #E6E6E6;
+  padding-top:38px;
+  border:0;
+}
+
+.custom-logo {
+  width: 150px;
+  margin-top: 360px;
+  margin-left: 750px;
+}
+
+p{
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 01.em;
+  color: #262626;
+  font-weight: 300;
+  margin:0;
+}
