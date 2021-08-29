@@ -23,6 +23,17 @@ li a {
   text-decoration: none;
 }
 
+.nacional {
+
+}
+
+
+.posts.col_list{
+  
+  display: flex;
+  padding-right: 60px;
+
+}
 
 .header_group {
   display: flex;
@@ -73,6 +84,7 @@ li a {
   color: #262626;
   font-size: 40px;
   font-weight: 700;
+  padding-right: 60px;
 }
 
 .post_excerpt {
@@ -90,7 +102,7 @@ li a {
 }
 
 .img{
-	width: 120px;
+	width: 130px;
   height: 75px;
 	margin-top: 55px;
   margin-left: -36px;
@@ -126,4 +138,14 @@ p{
   color: #262626;
   font-weight: 300;
   margin:0;
+}
+
+.post_content{
+  display: block;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.hr{
+  margin-right: 50px;
 }
