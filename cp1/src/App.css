@@ -3,17 +3,20 @@
   margin: 0 auto;
   padding: 0 16px;
   max-width: 1160px;
+  font-family: 'CNN Sans Display',sans-serif;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding:  0;
+  padding: 0;
   overflow: hidden;
-  background-color: rgb(0, 0, 0);
+  background-color: #333;
 }
 
-
+li {
+  float: left;
+}
 
 li a {
   display: block;
@@ -22,11 +25,22 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-.nacional {
-
+li a:hover {
+  background-color: #111;
 }
-
+.container{
+  max-width: 768px;
+  display:flex;
+  margin:auto;
+  justify-content: center;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+.Menu {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
 
 .posts.col_list{
   
@@ -88,7 +102,6 @@ li a {
 }
 
 .post_excerpt {
-  font-style: normal;
   font-size: 16px;
   font-weight: 400;
 }
@@ -113,7 +126,6 @@ li a {
   font-size: 12px;
   line-height: 16px;
   color: #4D4D4D;
-  font-style: normal;
 }
 
 .higher_share{
@@ -131,13 +143,14 @@ li a {
   margin-left: 750px;
 }
 
+
 p{
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 01.em;
   color: #262626;
   font-weight: 300;
-  margin:0;
+  margin-right: 40px;
 }
 
 .post_content{
